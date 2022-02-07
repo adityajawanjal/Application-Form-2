@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="0702.css">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <hr>
+    <form action="0702.js">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name : </label> <input type="text" placeholder=" Enter Your Name Here" id="name">
+            <br>
+            <label for="age">Age : </label><input type="number" placeholder=" Enter Your Age" id="age">
+            <br>
+            <label for="city"> City : </label>
+            <select name="city" id="city">
+                <option value="">Select Your City</option>
+                <option value="Surat">SURAT</option>
+                <option value="simla">SIMLA</option>
+                <option value="kashmir">KASHMIR</option>
+                <option value="mumbai">MUMBAI</option>
+                <option value="delhi">DELHI</option>
+                <option value="goa">GOA</option>
+            </select>
+            <br>
+            Gender :
+            <label for="male">
+                <input type="radio" id="male"> Male</label>
+            <label for="female">
+                <input type="radio" id="female"> Female</label>
+            <br>
+            <label for="dob">
+                Birth Date : <input type="date" id="dob"></label>
+        </fieldset>
+        <br>
+        <hr>
+        <fieldset>
+            <legend>Academic Details</legend>
+            <label for="university">
+                University :</label> <select name="university" id="university">
+                <option value=" ">Select university</option>
+                <option value="Nagpur university">Nagpur university</option>
+                <option value="Delhi university">Delhi university</option>
+                <option value="mumbai university">Mumbai university</option>
+                <option value="kolkata university">Culcutta university</option>
+            </select>
+            <br>
+            <label for="board">
+                Board : </label><select name="board" id="board">
+                <option value=" ">Select Board</option>
+                <option value="icse ">ICSE</option>
+                <option value=" ncert">NCERT</option>
+                <option value=" haryana">Haryana State Board</option>
+            </select>
+            <br>
+            <button type="button" class="btn">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
